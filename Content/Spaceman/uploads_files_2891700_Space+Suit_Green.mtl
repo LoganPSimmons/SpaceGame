@@ -1,0 +1,72 @@
+# Blender MTL File: 'uploads_files_2891700_Space+Suit_Green.blend'
+# Material Count: 5
+
+newmtl Backpack
+Ns 359.999993
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump C:\\Users\\Logan\\Documents\\UnrealGitProjects\\SpaceGame\\Content\\Spaceman\\blender file\\maps\\Orange_Backpack_Normal_OpenGL.png
+map_Kd C:\\Users\\Logan\\Documents\\UnrealGitProjects\\~Final~\\FBX_For Game engine\\maps_Green\\Green_Backpack_Base_Color.png
+map_Ns C:\\Users\\Logan\\Documents\\UnrealGitProjects\\SpaceGame\\Content\\Spaceman\\blender file\\maps\\Orange_Backpack_Roughness.png
+refl C:\\Users\\Logan\\Documents\\UnrealGitProjects\\SpaceGame\\Content\\Spaceman\\blender file\\maps\\Orange_Backpack_Metallic.png
+
+newmtl Belt
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump C:\\Users\\Logan\\Documents\\UnrealGitProjects\\SpaceGame\\Content\\Spaceman\\blender file\\maps\\Orange_Belt_Normal_OpenGL.png
+map_Kd C:\\Users\\Logan\\Documents\\UnrealGitProjects\\~Final~\\FBX_For Game engine\\maps_Green\\Green_Belt_Base_Color.png
+map_Ns C:\\Users\\Logan\\Documents\\UnrealGitProjects\\SpaceGame\\Content\\Spaceman\\blender file\\maps\\Orange_Belt_Roughness.png
+refl C:\\Users\\Logan\\Documents\\UnrealGitProjects\\SpaceGame\\Content\\Spaceman\\blender file\\maps\\Orange_Belt_Metallic.png
+
+newmtl Glove
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump C:\\Users\\Logan\\Documents\\UnrealGitProjects\\SpaceGame\\Content\\Spaceman\\blender file\\maps\\Orange_Glove_Shoes_Normal_OpenGL.png
+map_Kd C:\\Users\\Logan\\Documents\\UnrealGitProjects\\~Final~\\FBX_For Game engine\\maps_Green\\Green_Glove_Shoes_Base_Color.png
+map_Ns C:\\Users\\Logan\\Documents\\UnrealGitProjects\\SpaceGame\\Content\\Spaceman\\blender file\\maps\\Orange_Glove_Shoes_Roughness.png
+refl C:\\Users\\Logan\\Documents\\UnrealGitProjects\\SpaceGame\\Content\\Spaceman\\blender file\\maps\\Orange_Glove_Shoes_Metallic.png
+
+newmtl Helmet
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump C:\\Users\\Logan\\Documents\\UnrealGitProjects\\SpaceGame\\Content\\Spaceman\\blender file\\maps\\Orange_Helmet_Normal_OpenGL.png
+map_Kd C:\\Users\\Logan\\Documents\\UnrealGitProjects\\SpaceGame\\Content\\Spaceman\\blender file\\maps\\Orange_Helmet_Base_Color.png
+map_Ns C:\\Users\\Logan\\Documents\\UnrealGitProjects\\SpaceGame\\Content\\Spaceman\\blender file\\maps\\Orange_Helmet_Roughness.png
+refl C:\\Users\\Logan\\Documents\\UnrealGitProjects\\SpaceGame\\Content\\Spaceman\\blender file\\maps\\Orange_Helmet_Metallic.png
+
+newmtl Wearpack
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.057122 0.046728 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Bump C:\\Users\\Logan\\Documents\\UnrealGitProjects\\SpaceGame\\Content\\Spaceman\\blender file\\maps\\Orange_Wearpack_Normal_OpenGL.png
+map_Kd C:\\Users\\Logan\\Documents\\UnrealGitProjects\\~Final~\\FBX_For Game engine\\maps_Green\\Green_Wearpack_Base_Color.png
+map_Ns C:\\Users\\Logan\\Documents\\UnrealGitProjects\\SpaceGame\\Content\\Spaceman\\blender file\\maps\\Orange_Wearpack_Roughness.png
+refl C:\\Users\\Logan\\Documents\\UnrealGitProjects\\SpaceGame\\Content\\Spaceman\\blender file\\maps\\Orange_Wearpack_Metallic.png

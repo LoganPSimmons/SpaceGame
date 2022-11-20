@@ -12,6 +12,7 @@ class USceneComponent;
 class UCameraComponent;
 class UAnimMontage;
 class USoundBase;
+class UDenverCharacterMovementComponent;
 
 // Declaration of the delegate that will be called when the Primary Action is triggered
 // It is declared as dynamic so it can be accessed also in Blueprints
@@ -31,7 +32,7 @@ class ASpaceGameCharacter : public ACharacter
 	UCameraComponent* FirstPersonCameraComponent;
 
 public:
-	ASpaceGameCharacter();
+	ASpaceGameCharacter(const class FObjectInitializer& ObjectInitializer);
 
 protected:
 	virtual void BeginPlay();
@@ -98,6 +99,10 @@ public:
 	USkeletalMeshComponent* GetMesh1P() const { return Mesh1P; }
 	/** Returns FirstPersonCameraComponent subobject **/
 	UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
+
+	// Gets the Characters Movement Component
+	UFUNCTION(BlueprintCallable, Category = "Movement")
+	UDenverCharacterMovementComponent* GetMyMovementComponent() const;
 
 };
 

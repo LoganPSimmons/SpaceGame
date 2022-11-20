@@ -7,12 +7,14 @@
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/InputSettings.h"
+#include "DenverCharacterMovementComponent.h"
 
 
 //////////////////////////////////////////////////////////////////////////
 // ASpaceGameCharacter
 
-ASpaceGameCharacter::ASpaceGameCharacter()
+ASpaceGameCharacter::ASpaceGameCharacter(const class FObjectInitializer& ObjectInitializer):
+	Super(ObjectInitializer.SetDefaultSubobjectClass<UDenverCharacterMovementComponent>(ACharacter::CharacterMovementComponentName))
 {
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(55.f, 96.0f);
@@ -146,4 +148,9 @@ bool ASpaceGameCharacter::EnableTouchscreenMovement(class UInputComponent* Playe
 	}
 	
 	return false;
+}
+
+UDenverCharacterMovementComponent* ASpaceGameCharacter::GetMyMovementComponent() const
+{
+	return static_cast<UDenverCharacterMovementComponent*>(GetCharacterMovement());
 }
